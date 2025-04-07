@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.get('/welcome',authmiddleware,adminmiddleware,  (req,res)=>{
     res.json({
-        message:'welcome to the admin page '
+        message:'welcome to the new sarthak admin page '
     })
 })
 
